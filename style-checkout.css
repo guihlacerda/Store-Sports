@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  color: #333;
+}
+
+header {
+  margin: 20px;
+}
+main {}
+footer {}
+
+header .logo {
+  display: inline-block;
+  margin-right: 2em;
+  vertical-align: middle;
+}
+
+header .logo img {
+  height: 80px;
+}
+
+.container {
+    display: grid;
+    background: #a7a7a7;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+  }
+  
+section.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+ul li {
+    display: block;
+}
+
+.container ul li {
+    flex-grow: 2em;
+}
+
+
+nav.menu {
+    display: inline-block;
+  }
+  nav.menu li {
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 0 1em;
+  }
+  
+  nav.menu a {
+    padding: 8px 12px;
+    text-decoration: none;
+    color: unset;
+  }
+
+.topo li{
+    display: inline-block;
+    margin: 0 3em;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.item img {
+    margin: 0 18.15em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-risk {
+    text-decoration: line-through;
+    color: #555;
+    padding-left: 10em;
+}
+
+.topo h1 {
+    margin: 1em auto;
+}
+
+.item h1 {
+    margin: 1.3em 3em;
+}
+
+article a {
+    text-decoration: none;
+    color: #333;
+}
+
+.ckt span {
+    background: #000000;
+    padding: 1em 8em;
+    border-radius: 2em;
+    letter-spacing: .4em;
+}
+
+.ckt a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 3em auto;
+}
+
+footer {
+    margin: 3em;
+    text-align: center;
+}

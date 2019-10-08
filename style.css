@@ -27,6 +27,16 @@ header .logo img {
   height: 80px;
 }
 
+article a {
+  text-decoration: none;
+  color: #333;
+}
+
+article img {
+  height: 150px;
+  width: 150px;
+}
+
 nav.menu {
   display: inline-block;
 }
@@ -83,4 +93,8 @@ ul li {
 
 .main .item h1 {
   text-align: center;
+}
+
+footer {
+  margin: 2em;
 }

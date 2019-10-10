@@ -81,6 +81,10 @@ nav.menu {
   display: none;
 }
 
+.topo .visible {
+  display: block;
+}
+
 .d-flex {
     display: flex;
 }

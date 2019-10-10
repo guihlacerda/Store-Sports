@@ -28,5 +28,20 @@
         });
         var p = document.querySelector('.item[data-p="' + valueProduct + '"]');
         p.classList.add('visible');
+    };
+    
+    //PURCHASE
+    if (body.classList.contains('purchase') == true) {
+        var cookies = document.cookie;
+        var strCookies = cookies.split(';');
+        var valueProduct = 'vazio';
+
+        strCookies.forEach(function(ck) {
+            if (ck.trim().slice(0, 5) == 'cart=') {
+                valueProduct = ck.split('=')[1]
+            };
+        });
+        var p = document.querySelector('.items[data-p="' + valueProduct + '"]');
+        p.classList.add('visible');
     } 
 })();

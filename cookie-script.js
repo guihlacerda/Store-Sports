@@ -26,7 +26,7 @@
                 valueProduct = ck.split('=')[1]
             };
         });
-        document.querySelector('.item[data-p="' + valueProduct + '"]').classList.add('visible');
+        document.querySelector('.item[data-p=' + valueProduct + ']').classList.add('visible');
     }
 
    

@@ -114,6 +114,10 @@ nav.menu {
     display: none;
 }
 
+.items img {
+    margin-left: 22em;
+}
+
 .visible {
     display: block;
 }

@@ -28,7 +28,5 @@
         });
         var p = document.querySelector('.item[data-p="' + valueProduct + '"]');
         p.classList.add('visible');
-    }
-
-   
+    } 
 })();
